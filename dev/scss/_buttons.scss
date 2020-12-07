@@ -1,0 +1,19 @@
+
+$color-brand-primary: #FFF200;
+
+.btn {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.362;
+    letter-spacing: 5.5%;
+    background-color: $color-brand-primary;
+    padding: 20px 80px;
+    border: 1px solid $color-brand-primary;
+    border-radius: 0 0 0 20px;
+
+    @media all and (max-width: 518px) {
+        padding: 15px 70px ;
+    }
+}
+
+
