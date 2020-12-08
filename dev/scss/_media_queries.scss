@@ -1,4 +1,8 @@
 /*---------Media queries start-----*/
+@media all and (max-width: 1118px) {
+    
+}
+
 @media all and (max-width: 1060px) {
     
 }
@@ -12,11 +16,408 @@
 }
 
 @media all and (max-width: 767px) {
+
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .inner-banner-picture {
+        height: 100%;
+
+        .section-title-inverse {
+        padding-bottom: 30px;
+        }
+
+        .inner-banner-content {
+            padding-top: 20px;
+        }
+
+        .section-text-inverse {
+            padding-top: 30px;
+            line-height: 1.3;
+        }
+    }
+
+    .landlord-title {
+        justify-content: center;
+        display: flex;
+
+        h2 {
+        max-width: 447px;
+        text-align: center;
+        }
+    }
+
+    .landlord-text {
+        max-width: 800px;
+      }
+  
+      .landlord-text-marked {
+          max-width: 710px;
+      }
+  
+      .landlord-text-marked::before {
+          width: 30px;
+          height: 30px;
+          transform: translate(2px, 14px);
+      }
+
+    .solve-problems-section {
+
+        .solve-problems-title {
+
+            justify-content: center;
+            display: flex;
+            
+            h2 {
+                padding-bottom: 40px;
+                text-align: center;
+                max-width: 600px;
+            }
+        }
+
+        .solve-problems-text {
+            max-width: 800px;
+        }
     
+        .problems-wrapper {
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        .landlord-tenant-text {
+            max-width: 600px;
+            padding-left: 15px;
+        }
+    
+        .landlord-text-marked {
+            margin-top: 60px;
+            margin-bottom: 40px;
+        
+            &::before{
+                transform: translate(2px, 40px);
+            }
+        }
+
+        .landlord-tenant-text-marked {
+            max-width: 710px;
+        }
+    }
+
+    .resolve-item {
+    
+        .resolve-item-text {
+            max-width: 700px;
+        }
+    }
+
+    .steps-of-going-deco-text {
+        padding-top: 50px;
+        max-width: 710px;
+    }
+
+    .wrapper-steps-of-going-paragraph {
+        margin-top: 48px;
+    }
+    
+    .steps-of-going-paragraph {
+        padding: 30px 10px;
+        display: flex;
+        margin: 15px -15px;
+    
+        span {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.53;
+            padding: 27px 25px 79px 30px;
+        }
+    
+        p {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1.55;
+            max-width: 900px;
+        }
+    }
+
+    .partner-section {
+
+        .partner-section-text {
+            max-width: 800px;
+        }
+    
+        .legal-block {
+            max-width: 800px;
+            position: relative;
+            margin-top: 80px;
+            padding-bottom: 20px;
+            padding-left: 35px;
+    
+            &::before {
+                content: '';
+                width: 34px;
+                height: 34px;
+                background-color: #000;
+                top: -34px;
+                left: 0px;
+                position: absolute;
+            }
+    
+            &::after {
+                content: '';
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: $color-brand-primary;
+                top: -25px;
+                left: 9px;
+                position: absolute;
+            }
+        }
+    
+        .partner-section-notice {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.375;
+            background-color: $color-brand-primary;
+            padding: 44px 92px 32px 93px;
+            margin: 40px 0;
+        }
+    
+        .sign-contract-text {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.375;
+            max-width: 410px;
+            margin-top: 40px;
+        }
+    
+        .sign-contract-button {
+            margin-top: 58px;
+            position: relative;
+        }
+    
+        .connection-line {
+            width: 170px;
+            height: 92px;
+            border-right: 2px solid #000;
+            border-bottom: 2px solid #000;
+            background-color: transparent;
+            position: absolute;
+            top: -55px;
+            left: 293px;
+        }
+    }
 }
 
 @media all and (max-width: 576px) {
+    h2 {
+        font-size: 42px;
+    }
+
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .inner-banner-picture {
+
+        .section-title-inverse {
+        padding-bottom: 30px;
+        }
+
+        .inner-banner-content {
+            padding-top: 20px;
+        }
+
+        .section-text-inverse {
+            padding-top: 30px;
+            line-height: 1.3;
+        }
+
+        .btn-wrapper {
+            justify-content: center;
+        }
+    }
+
+    .landlord-title {
+        justify-content: center;
+        display: flex;
+
+        h2 {
+        max-width: 447px;
+        text-align: center;
+        }
+    }
+
+    .landlord-text {
+        max-width: 600px;
+      }
+  
+      .landlord-text-marked {
+          font-size: 18px;
+          line-height: 1.3;
+          padding: 20px 25px;
+          margin-top: 40px;
+      }
+  
+      .landlord-text-marked::before {
+          width: 30px;
+          height: 30px;
+          transform: translate(2px, 24px);
+      }
+  
+      .hiring-section {
+  
+          .hiring-title h2 {
+              max-width: 682px;
+              text-align: center;
+          }
+  
+          .hiring-image {
+              padding-top: 35px;
+              margin-left: 0px;
+          }
+  
+          .hiring-text {
+              font-size: 20px;
+              line-height: 1.3;
+              padding-left: 20px;
+              padding-top: 30px;
+  
+              p:first-child {
+                  padding-bottom: 30px;
+              }
+          } 
+      }
+
+    .solve-problems-section {
+
+        .solve-problems-title {
+            padding-bottom: 40px;
+            text-align: center;
+        }
     
+        .problems-wrapper {
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+    
+        .landlord-text-marked {
+            margin-top: 60px;
+            margin-bottom: 40px;
+        
+            &::before{
+                transform: translate(2px, 45px);
+            }
+        }
+
+        .landlord-tenant-text-marked {
+            max-width: 600px;
+        }
+    }
+
+    .steps-of-going-deco-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.55;
+        max-width: 510px;
+        padding-top: 20px;
+    }
+
+    .wrapper-steps-of-going-paragraph {
+
+        .steps-of-going-paragraph {
+            flex-wrap: wrap;
+
+            span {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 26px;
+            }
+
+            p {
+                padding-left: 10px;
+                padding-top: 20px;
+            }
+        }
+
+        .steps-of-going-paragraph-marked {
+            padding-left: 10px;
+            margin: 15px -15px;
+
+            span {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 26px;
+            }
+        }
+    }
+
+    .partner-section {
+
+        h2 {
+            text-align: center;
+        }
+
+        .legal-block {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.55;
+            padding-bottom: 0px;
+            margin-top: 80px;
+            padding-left: 34px;
+            max-width: 600px;
+    
+            &::before {
+                content: '';
+                width: 34px;
+                height: 34px;
+                background-color: #000;
+                top: -35px;
+                left: 0px;
+                position: absolute;
+            }
+    
+            &::after {
+                content: '';
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: $color-brand-primary;
+                top: -25px;
+                left: 9px;
+            }
+        }
+
+        .partner-section-notice {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.3;
+            background-color: $color-brand-primary;
+            padding: 20px 15px 20px 15px;
+            margin: 40px 0;
+        }
+
+        .sign-contract-text {
+            font-size: 20px;
+            line-height: 1.3;
+            padding-top: 30px;
+            max-width: 600px;
+        }
+
+        .sign-contract-button {
+            justify-content: center;
+            display: flex;
+        }
+
+        .connection-line {
+          display: none;
+      }
+    }
 }
 
 @media all and (max-width: 518px) {
@@ -149,10 +550,20 @@
         }
     }
 
+    .steps-of-going-deco-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.55;
+        max-width: 510px;
+        padding-top: 20px;
+    }
+
     .wrapper-steps-of-going-paragraph {
 
         .steps-of-going-paragraph {
             flex-wrap: wrap;
+            padding-left: 10px;
+            margin: 15px -15px;
 
             span {
                 font-size: 30px;
@@ -163,11 +574,12 @@
 
             p {
                 padding-left: 10px;
+                padding-top: 20px;
             }
         }
 
         .steps-of-going-paragraph-marked {
-            flex-wrap: wrap;
+            padding-left: 10px;
 
             span {
                 font-size: 30px;
@@ -180,6 +592,55 @@
   
     .partner-section {
 
+        .legal-block {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.55;
+            padding-bottom: 0px;
+            margin-top: 80px;
+            padding-left: 35px;
+    
+            &::before {
+                content: '';
+                width: 34px;
+                height: 34px;
+                background-color: #000;
+                top: -35px;
+                left: 0px;
+                position: absolute;
+            }
+    
+            &::after {
+                content: '';
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: $color-brand-primary;
+                top: -25px;
+                left: 9px;
+            }
+        }
+
+        .partner-section-notice {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.3;
+            background-color: $color-brand-primary;
+            padding: 20px 15px 20px 15px;
+            margin: 40px 0;
+        }
+
+        .sign-contract-text {
+            font-size: 20px;
+            line-height: 1.3;
+            padding-top: 30px;
+        }
+
+        .sign-contract-button {
+            justify-content: center;
+            display: flex;
+        }
+
         .connection-line {
           display: none;
       }
@@ -187,17 +648,277 @@
 }
 
 @media all and (max-width: 350px) {
+    h2 {
+        font-size: 30px;
+        line-height: 1.1;
+        text-align: center;
+      }
+    
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+  
+    .inner-banner-picture {
+
+        .section-title-inverse {
+        padding-bottom: 30px;
+        }
+
+        .inner-banner-content {
+            padding-top: 20px;
+        }
+
+        .section-text-inverse {
+            padding-top: 30px;
+            line-height: 1.3;
+        }
+    }
+  
+    .landlord-text {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.3;
+      padding-top: 30px;
+      max-width: 430px;
+    }
+
+    .landlord-text-marked {
+        font-size: 18px;
+        line-height: 1.3;
+        padding: 20px 25px;
+        margin-top: 40px;
+    }
+
+    .landlord-text-marked::before {
+        width: 30px;
+        height: 30px;
+        transform: translate(2px, 24px);
+    }
+
+    .hiring-banner {
+        max-height: 800px;
+    }
+  
+    .hiring-section {
+
+        .hiring-title h2 {
+            max-width: 682px;
+        }
+
+        .hiring-image {
+            padding-top: 35px;
+            margin-left: 0px;
+        }
+
+        .hiring-text {
+            font-size: 20px;
+            line-height: 1.3;
+            padding-left: 20px;
+            padding-top: 30px;
+
+            p:first-child {
+                padding-bottom: 30px;
+            }
+        } 
+    }
+  
+    .solve-problems-section {
+
+        .solve-problems-title {
+            padding-bottom: 40px;
+            text-align: center;
+        }
+    
+        .problems-wrapper {
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+    
+        .landlord-text-marked {
+            margin-top: 60px;
+            margin-bottom: 40px;
+        
+            &::before{
+                transform: translate(2px, 45px);
+            }
+        }
+    }
+  
+    .landlord-tenant-title {
+        text-align: center; 
+    }
+
+    .landlord-tenant-logo {
+        display: flex;
+        vertical-align: middle;
+    }
+    
+    .landlord-tenant-text {
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 20px;
+        line-height: 1.3;
+        max-width: 425px;
+    }
+    
+    .landlord-tenant-text-marked {
+        max-width: 425px;
+    }
+  
+    .resolve-item {
+
+        .resolve-item-text {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.3;
+            max-width: 300px;
+            padding-left: 25px;
+        }
+    }
+  
+    .steps-of-going-deco-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.55;
+        max-width: 510px;
+        padding-top: 20px;
+    }
+  
+    .wrapper-steps-of-going-paragraph {
+
+        .steps-of-going-paragraph {
+            padding: 10px;
+            display: flex;
+            margin: 15px -15px;
+
+            span {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 10px;
+            }
+
+            p {
+                padding-left: 10px;
+                padding-top: 10px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .steps-of-going-paragraph-marked {
+            padding: 10px;
+            display: flex;
+            margin: 15px -15px;
+
+            span {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 10px;
+            }
+            
+        }
+    }
+    
     .partner-section {
+
+        .legal-block {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.55;
+            padding-bottom: 0px;
+            margin-top: 80px;
+            padding-left: 35px;
+    
+            &::before {
+                content: '';
+                width: 34px;
+                height: 34px;
+                background-color: #000;
+                top: -35px;
+                left: 0px;
+                position: absolute;
+            }
+    
+            &::after {
+                content: '';
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: $color-brand-primary;
+                top: -25px;
+                left: 9px;
+            }
+        }
+
+        .partner-section-notice {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.3;
+            background-color: $color-brand-primary;
+            padding: 20px 15px 20px 15px;
+            margin: 40px 0;
+        }
+
+        .sign-contract-text {
+            font-size: 20px;
+            line-height: 1.3;
+            padding-top: 30px;
+        }
+
+        .sign-contract-button {
+            margin-top: 30px;
+            position: relative;
+        }
 
         .connection-line {
           display: none;
-      }
+        }
     }
   
 }
 
 @media all and (max-width: 280px) {
- 
+
+    .wrapper-steps-of-going-paragraph {
+
+        .steps-of-going-paragraph {
+            padding: 10px;
+            display: flex;
+            margin: 15px -15px;
+
+            span {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 10px;
+            }
+
+            p {
+                padding-left: 10px;
+                padding-top: 10px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .steps-of-going-paragraph-marked {
+            padding: 10px 10px;
+            display: flex;
+            margin: 15px -15px;
+
+            span {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 10px;
+            }
+            
+        }
+    }
 }
 
 /*---------Media queries end-------*/
