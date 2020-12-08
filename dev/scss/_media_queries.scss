@@ -1,18 +1,224 @@
 /*---------Media queries start-----*/
+
 @media all and (max-width: 1118px) {
     
+    .wrapper-steps-of-going-paragraph {
+
+        .steps-of-going-paragraph {
+            padding: 30px 10px;
+            display: flex;
+            margin: 15px -15px;
+        
+            span {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.53;
+                padding: 27px 25px 79px 30px;
+            }
+        
+            p {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.55;
+                max-width: 900px;
+            }
+        }
+    
+        .steps-of-going-paragraph-marked {
+            padding-left: 10px;
+            margin: 15px -15px;
+    
+            span {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 26px;
+            }
+    
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .solve-problems-section .landlord-text-marked::before {
+        transform: translate(93px, -21px);
+    }
 }
 
 @media all and (max-width: 1060px) {
+
+    .section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .solve-problems-section .landlord-text-marked::before {
+        transform: translate(71px, -21px);
+    }
+
+    .wrapper-steps-of-going-paragraph {
+
+        .steps-of-going-paragraph {
+            padding: 30px 10px;
+            display: flex;
+            margin: 15px -15px;
+        
+            span {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.53;
+                padding: 27px 25px 79px 30px;
+            }
+        
+            p {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.55;
+                max-width: 900px;
+            }
+        }
     
+        .steps-of-going-paragraph-marked {
+            padding-left: 10px;
+            margin: 15px -15px;
+    
+            span {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 26px;
+            }
+    
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .partner-section {
+
+        .connection-line {
+            width: 500px;
+            height: 92px;
+            top: -55px;
+            left: 293px;
+        }
+
+        .legal-block {
+            font-size: 24px;
+            padding-bottom: 0px;
+            max-width: 910px;
+            margin-top: 80px;
+            margin-left: 50px;
+        }
+    }
 }
 
 @media all and (max-width: 992px) {
+
+    .wrapper-steps-of-going-paragraph {
+
+        .steps-of-going-paragraph {
+            padding: 30px 10px;
+            display: flex;
+            margin: 15px -15px;
+        
+            span {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.53;
+                padding: 27px 25px 79px 30px;
+            }
+        
+            p {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.55;
+                max-width: 900px;
+            }
+        }
     
+        .steps-of-going-paragraph-marked {
+            padding-left: 10px;
+            margin: 15px -15px;
+    
+            span {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.2;
+                padding: 15px 15px 15px 26px;
+            }
+    
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .solve-problems-section {
+
+        .landlord-tenant-text {
+            max-width: 600px;
+            padding-left: 15px;
+        }
+    
+        .landlord-text-marked {
+            margin-top: 60px;
+            margin-bottom: 40px;
+        
+            &::before{
+                transform: translate(2px, 40px);
+            }
+        }
+
+        .landlord-tenant-text-marked {
+            max-width: 710px;
+        }
+    }
+
+    .partner-section .connection-line {
+        width: 400px;
+        height: 92px;
+        top: -55px;
+        left: 293px;
+    }
 }
 
 @media all and (max-width: 846px) {
+
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .solve-problems-section {
+
+        .landlord-tenant-text {
+            max-width: 600px;
+            padding-left: 15px;
+        }
     
+        .landlord-text-marked {
+            margin-top: 60px;
+            margin-bottom: 40px;
+        
+            &::before{
+                transform: translate(2px, 40px);
+            }
+        }
+
+        .landlord-tenant-text-marked {
+            max-width: 710px;
+        }
+    }
+
+    .partner-section .connection-line {
+        width: 343px;
+        height: 92px;
+        top: -55px;
+        left: 293px;
+    }
 }
 
 @media all and (max-width: 767px) {
@@ -37,6 +243,10 @@
             padding-top: 30px;
             line-height: 1.3;
         }
+
+        .btn-wrapper {
+            justify-content: center;
+        }
     }
 
     .landlord-title {
@@ -53,15 +263,15 @@
         max-width: 800px;
       }
   
-      .landlord-text-marked {
-          max-width: 710px;
-      }
+    .landlord-text-marked {
+        max-width: 710px;
+    }
   
-      .landlord-text-marked::before {
-          width: 30px;
-          height: 30px;
-          transform: translate(2px, 14px);
-      }
+    .landlord-text-marked::before {
+        width: 30px;
+        height: 30px;
+        transform: translate(2px, 14px);
+    }
 
     .solve-problems-section {
 
@@ -95,7 +305,7 @@
             margin-top: 60px;
             margin-bottom: 40px;
         
-            &::before{
+            &::before {
                 transform: translate(2px, 40px);
             }
         }
@@ -153,6 +363,7 @@
             margin-top: 80px;
             padding-bottom: 20px;
             padding-left: 35px;
+            margin-left: 0px;
     
             &::before {
                 content: '';
@@ -212,6 +423,7 @@
 }
 
 @media all and (max-width: 576px) {
+
     h2 {
         font-size: 42px;
     }
@@ -255,42 +467,42 @@
         max-width: 600px;
       }
   
-      .landlord-text-marked {
-          font-size: 18px;
-          line-height: 1.3;
-          padding: 20px 25px;
-          margin-top: 40px;
-      }
+    .landlord-text-marked {
+        font-size: 18px;
+        line-height: 1.3;
+        padding: 20px 25px;
+        margin-top: 40px;
+    }
+
+    .landlord-text-marked::before {
+        width: 30px;
+        height: 30px;
+        transform: translate(2px, 24px);
+    }
   
-      .landlord-text-marked::before {
-          width: 30px;
-          height: 30px;
-          transform: translate(2px, 24px);
-      }
-  
-      .hiring-section {
-  
-          .hiring-title h2 {
-              max-width: 682px;
-              text-align: center;
-          }
-  
-          .hiring-image {
-              padding-top: 35px;
-              margin-left: 0px;
-          }
-  
-          .hiring-text {
-              font-size: 20px;
-              line-height: 1.3;
-              padding-left: 20px;
-              padding-top: 30px;
-  
-              p:first-child {
-                  padding-bottom: 30px;
-              }
-          } 
-      }
+    .hiring-section {
+
+        .hiring-title h2 {
+            max-width: 682px;
+            text-align: center;
+        }
+
+        .hiring-image {
+            padding-top: 35px;
+            margin-left: 0px;
+        }
+
+        .hiring-text {
+            font-size: 20px;
+            line-height: 1.3;
+            padding-left: 20px;
+            padding-top: 30px;
+
+            p:first-child {
+                padding-bottom: 30px;
+            }
+        } 
+    }
 
     .solve-problems-section {
 
@@ -421,6 +633,7 @@
 }
 
 @media all and (max-width: 518px) {
+
     h2 {
       font-size: 34px;
       line-height: 1.2;
@@ -599,6 +812,7 @@
             padding-bottom: 0px;
             margin-top: 80px;
             padding-left: 35px;
+            margin-left: 0;
     
             &::before {
                 content: '';
@@ -648,6 +862,7 @@
 }
 
 @media all and (max-width: 350px) {
+
     h2 {
         font-size: 30px;
         line-height: 1.1;
@@ -832,6 +1047,7 @@
             padding-bottom: 0px;
             margin-top: 80px;
             padding-left: 35px;
+            margin-left: 0;
     
             &::before {
                 content: '';
